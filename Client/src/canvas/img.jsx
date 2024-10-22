@@ -1,15 +1,20 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { PerspectiveCamera, OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import {
+  PerspectiveCamera,
+  OrbitControls,
+  Preload,
+  useGLTF,
+} from "@react-three/drei";
 import { Model } from "../../Scene";
-import musasi from "../assets/chill.png"
+import musasi from "../assets/ye.jpg";
 
 const House = () => {
   return (
     <>
-        <img src={musasi} alt="musasi" />
+      <img src={musasi} alt="musasi" className="max-w-[72%] h-auto" />
     </>
-  )
-}
+  );
+};
 
-export default House
+export default House;
