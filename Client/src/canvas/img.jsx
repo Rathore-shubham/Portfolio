@@ -7,7 +7,7 @@ import {
   useGLTF,
 } from "@react-three/drei";
 import { Model } from "../../Scene";
-import musasi from "../assets/ye.jpg";
+import musasi from "../assets/icon.jpg";
 
 const House = () => {
   return (

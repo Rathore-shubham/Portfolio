@@ -4,6 +4,7 @@ import mobile from "../assets/mobile.png";
 import project1 from "../assets/e-commerce.png";
 import project2 from "../assets/brainwave.png";
 import project3 from "../assets/nike.png";
+import project4 from "../assets/mern.png";
 
 export const navLinks = [
   {
@@ -37,6 +38,33 @@ export const services = [
 ];
 
 export const projects = [
+  {
+    title: "Restuarent Application",
+    image: project4,
+    live: "mern-restaurant-zeta.vercel.app/",
+    source: "https://github.com/Rathore-shubham/MERN_RESTAURANT",
+    name: "Restuarent Application",
+    description:
+      "A comprehensive full-stack website built using the MERN stack (MongoDB, Express, React, Node.js). This project demonstrates a fully responsive, interactive user experience with a well-structured backend and seamless frontend functionality.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name:"MongoDB",
+        color: "blue-text-gradient",
+      }
+    ],
+  },
   {
     image: project1,
     live: "https://e-commerce-store-nine-orpin.vercel.app/",
@@ -106,6 +134,7 @@ export const projects = [
       },
     ],
   },
+
   
 ];
 export const techs = [
