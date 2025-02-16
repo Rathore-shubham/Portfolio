@@ -14,13 +14,17 @@ const Home = () => {
           <h4 className={`${styles.sectionSubText}`}>Hi, I am</h4>
           <h1 className={`${styles.heroHeadText} heading`}>Shubham Rathore</h1>
           <p className={`${styles.heroSubText} mt-1 text-stone-950`}>
-            <span className="text-white">Full Stack Developer... </span> 
+            <span className="text-white">Full Stack Developer... </span>
           </p>
-                    {/* Resume Button */}
-                    <a
-            href="/SHUBHAM.pdf"  
+          {/* Resume Button */}
+          <a
+            href="/SHUBHAM.pdf"
             download="Shubham_Rathore_Resume.pdf"
-            className="mt-5 inline-block px-6 py-3 bg-zinc-800 text-white font-light rounded-lg shadow-md hover:bg-zinc-700 transition"
+            className="flex px-6 m-0  py-3 bg-zinc-800 text-white font-light rounded-xl outline-none 
+             drop-shadow-lg hover:bg-zinc-700 transition-all 
+             text-sm sm:text-base md:text-lg 
+             w-full sm:w-fit text-center"
+
           >
             Download Resume
           </a>
@@ -55,14 +59,13 @@ const Home = () => {
                 <FaInstagram />
               </a>
             </li>
-           
           </ul>
         </div>
         <div className="lg:h-[600px] md:h-[400px] h-[400px]  w-full flex items-center justify-center ">
           <House />
         </div>
       </div>
-      
+
       <div className="absolute xs:bottom-10 bottom-[1rem] w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
