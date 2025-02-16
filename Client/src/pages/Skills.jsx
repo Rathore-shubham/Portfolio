@@ -31,7 +31,7 @@ const SkillsPage = () => {
   }, []);
 
   return (
-    <div className="skills-page py-10 bg-[#161313] text-center">
+    <div className="skills-page py-10 p-8 bg-[#161313] text-center">
       <h2 className="skills-heading text-4xl font-bold mb-10 text-white">
         My Skills
       </h2>
