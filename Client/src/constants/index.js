@@ -5,6 +5,7 @@ import project1 from "../assets/e-commerce.png";
 import project2 from "../assets/brainwave.png";
 import project3 from "../assets/nike.png";
 import project4 from "../assets/mern.png";
+import project5 from "../assets/doc.png";
 
 export const navLinks = [
   {
@@ -38,6 +39,36 @@ export const services = [
 ];
 
 export const projects = [
+  
+  {
+    title: "Doctor Appointment Application",
+    image: project5, // Replace with the actual image variable
+    live: "doc-finder-frontend.vercel.app", // Add the live deployment URL
+    source: "https://github.com/Rathore-shubham/DocFinder", // Replace with the actual repo link
+    name: "Doctor Appointment Application",
+    description:
+      "A full-stack Doctor Appointment Booking application developed using the MERN stack (MongoDB, Express, React, Node.js). This project provides a seamless experience for patients to book appointments, view doctor availability, and receive confirmations. It features role-based authentication, real-time updates, and a user-friendly interface.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      }
+    ],
+  },
+  
+  ,
   {
     title: "Restuarent Application",
     image: project4,
