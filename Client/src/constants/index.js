@@ -5,6 +5,7 @@ import project1 from "../assets/e-commerce.png";
 import project2 from "../assets/brainwave.png";
 import project3 from "../assets/nike.png";
 import project4 from "../assets/mern.png";
+import project5 from '../assets/Doc.png'
 
 export const navLinks = [
   {
@@ -38,6 +39,33 @@ export const services = [
 ];
 
 export const projects = [
+  {
+    title: "Doctor Appointment Application",
+    image: project5,
+    live: "https://doc-finder-eight.vercel.app/",
+    source: "https://github.com/Rathore-shubham/DocFinder",
+    name: "Restuarent Application",
+    description:
+      "Developed a full-stack web app using MERN for seamless doctor appointment scheduling. Integrated an AI chatbot for automated booking assistance, FAQs, and user support. Features include role-based authentication, doctor and admin dashboards, real-time notifications, and secure data management. ",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name:"MongoDB",
+        color: "blue-text-gradient",
+      }
+    ],
+  },
   {
     title: "Restuarent Application",
     image: project4,
